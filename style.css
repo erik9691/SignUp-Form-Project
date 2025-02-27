@@ -1,0 +1,71 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+:root
+{
+    --main-font: "Roboto", sans-serif;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: var(--main-font);
+}
+a
+{
+    color: inherit;
+}
+
+.content
+{
+    display: flex;
+    height: 100vh;
+}
+.banner
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.form-section
+{
+    width: 70%;
+}
+.background
+{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+.logo
+{
+    box-sizing: border-box;
+    margin-bottom: auto;
+    background-color: rgba(0, 0, 0, 0.534);
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40%;
+}
+.logo-img
+{
+    height:90%;
+}
+.logo-text
+{
+    color: white;
+    font-family: norse-bold,'Times New Roman', Times, serif;
+    font-size: 6vw;
+}
+.credit
+{
+    color: white;
+    font-size: 10px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 2%;
+}
